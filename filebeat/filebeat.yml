@@ -1,0 +1,6 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /logs/access_log
+output.console:
+  pretty: false
